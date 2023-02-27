@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.Calculator {
+border-radius: 1em;
+border:10px #000000;
+height: 680px;
+width: 800px;
+margin-inline: auto;
+background-color: #7286D3;
+box-shadow: #7286D3 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box{
+font-family: 'Orbitron', sans-serif;
+background-color: #000000;  
+border: solid rgb(0, 0, 0) 0.5px;
+color:#070707;
+border-radius: 10px;
+width: 98%;
+height: 65%;
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #fffbfb;
+    color: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    cursor: pointer;
+    }
+input:active[type=button] {
+    background: #c1c1c1;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
+#result{
+    width: 97%;
+    height: 90%;
+    margin: 2px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    background-color: #8e8e8e;
+    
+}
